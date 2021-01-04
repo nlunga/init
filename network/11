@@ -1,0 +1,26 @@
+#!/bin/sh
+
+# Use the output of the previous command to find the name and IP address of the device that makes the link between you (local network) and the outside world
+# I couldn't find the nat ip, see the results below:
+
+traceroute to slash16.org (54.192.229.225), 30 hops max, 60 byte packets
+ 1  _gateway (192.168.0.1)  3.786 ms  3.736 ms  3.892 ms
+ 2  * * *
+ 3  10.9.195.65 (10.9.195.65)  62.793 ms  62.761 ms  62.730 ms
+ 4  * * *
+ 5  10.195.18.1 (10.195.18.1)  45.323 ms  45.294 ms  45.264 ms
+ 6  196.250.239.56 (196.250.239.56)  43.396 ms  24.682 ms  24.623 ms
+ 7  154.66.247.217 (154.66.247.217)  183.414 ms  187.894 ms  188.432 ms
+ 8  154.66.247.148 (154.66.247.148)  187.782 ms  186.151 ms  190.070 ms
+ 9  154.66.247.144 (154.66.247.144)  190.032 ms  216.686 ms  193.630 ms
+10  xe-4-0-1.edge3.London15.Level3.net (212.187.195.21)  216.699 ms  288.769 ms  259.557 ms
+11  ae-1-15.bar3.Warsaw1.Level3.net (4.69.159.42)  260.344 ms  260.159 ms  263.247 ms
+12  213.242.112.26 (213.242.112.26)  255.641 ms  255.514 ms  234.603 ms
+13  * * *
+14  * * *
+15  * * *
+16  * * *
+17  * * *
+18  * * *
+19  * * *
+20  server-54-192-229-225.waw50.r.cloudfront.net (54.192.229.225)  354.982 ms  354.932 ms  354.785 ms

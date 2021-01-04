@@ -1,0 +1,5 @@
+#!/bin/sh
+
+# Find the command that kills the background command’s process
+#  killall tail
+sudo pkill -f tail

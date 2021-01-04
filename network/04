@@ -1,0 +1,5 @@
+#!/bin/sh
+
+# Identifiy the default gateway in the routing table
+netstat -r -n | grep default | head -1 | awk '{print $2}'
+# netstat -r -n 

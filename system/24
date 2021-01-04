@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# Find the command that list all packages
+apt list --installed

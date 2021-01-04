@@ -1,0 +1,6 @@
+#!/bin/sh
+
+# Thanks to the previous question and the reverse DNS find the name of your host
+# host 10.51.1.253
+
+NS => DNS => DHCP Server

@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# Find the IP that was assigned to you by dhcp server
+ping 10.51.1.253

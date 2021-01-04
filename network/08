@@ -1,0 +1,5 @@
+#!/bin/sh
+
+# Find the provider of slash16.org
+# might want to install whois with "sudo apt install whois"
+whois slash16.org | grep "Name Server"
